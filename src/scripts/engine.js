@@ -32,4 +32,8 @@ function checkMatch() {
     }
 
     openCards = [];
+
+    if(document.querySelectorAll(".boxMatch").length == emojis.length) {
+        alert("You win cachorro!");
+    }
 }
